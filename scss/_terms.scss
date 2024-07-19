@@ -4,8 +4,19 @@
 }
 
 .terms .container {
-  @include big-desktop {
-    width: 1200px;
+  width: 100%;
+
+  padding-left: 30px;
+  padding-right: 30px;
+
+  @include big-mobile {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  @include tablet {
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
 
